@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* first-part-style */
+.container{
+    background-color: #2D25A0;
+}
+.titles{
+    display: flex;
+}
+.title{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    padding-left: 140px;
+    margin-top: 207px;
+
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+
+}
+.banner{
+    margin-top: 153px;
+    margin-right: 40px; 
+    margin-left: 40px;
+    margin-bottom: 86px;
+}
+.watch-btn{
+    background-color:#E02C6D;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 24px 10px 24px;
+    color: white;
+    border: none;
+}
+
+/* 2nd part style */
+.all-player{
+    margin-top: 70px;
+    background-color: white;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    justify-items: center;
+    align-items: center;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    margin: 16px 0px;
+    padding-left: 30px;
+}
+.players{
+}
+.card{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 80%;
+
+}
+.player-info{
+    padding-left: 30px;
+    padding-right: 25px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.player-name{ 
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom:5%;
+}
+.player-details{
+    text-align: justify
+}
