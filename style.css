@@ -36,6 +36,9 @@
     color: white;
     border: none;
 }
+.watch-btn:hover{
+
+}
 
 /* 2nd part style */
 .all-player{
@@ -56,8 +59,6 @@
     margin: 16px 0px;
     padding-left: 30px;
 }
-.players{
-}
 .card{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
@@ -69,13 +70,130 @@
     padding-right: 25px;
     text-align: justify;
     margin-bottom: 15px;
+    color: #6C6C6C;
 }
 .player-name{ 
     font-size: 28px;
     font-weight: bold;
     line-height: 40px;
     margin-bottom:5%;
+    color: #18191F;
 }
 .player-details{
     text-align: justify
 }
+
+/* third part */
+.highlight-section{
+    margin-top: 165px;
+}
+.match img{
+    width: 500px;
+    height: 400px;
+}
+
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.highlights-text{
+    width: 50%;
+    margin-right: 30px;
+    text-align: justify;
+}
+.head{
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: 3px;
+
+}
+.info-text{
+    color: #6C6C6C;
+    font-size: 16px;
+    right: 0px;
+    width: 400px;
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
+
+/* footer part */
+
+
+.logo img{
+    width: 450px;
+    height: 150px;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 158px;
+}
+
+.icon img{
+    width: 5%;
+}
+.footer-section{
+    text-align: center;
+}
+
+.Copyright-section{
+    margin-top: 20px;
+}
+.icon img:hover{
+    background-color: #E02C6D;
+    border-radius: 30px;
+}
+
+
+
+/* bonus part style */
+.form-info {
+    width: 80%;
+    padding: 12px 40px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:rgb(255, 242, 239);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  select{
+    width: 100%;
+    padding: 12px 40px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+  }
+  
+  .btn {
+    width: 50%;
+    background-color: #E02C6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+   
+ 
+    .form {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        padding: 20px;  
+    }
+  .sub-btn{
+    text-align: center;
+  }
