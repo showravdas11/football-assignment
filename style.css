@@ -352,7 +352,25 @@
 
     .container{
         background-color: #2D25A0;
-        width: 115%;
+        width: 113%;
+    }
+
+    .title{
+        font-size:50px;
+        font-weight:400;
+        color: rgb(255, 255, 255);
+        padding-left: 40px;
+
+
+    }
+
+    .info-text{
+        color: #6C6C6C;
+        font-size: 16px;
+        right: 0px;
+        width: 300px;
+        padding: 10px 0;
+        letter-spacing: 1px;
     }
 
 
@@ -389,6 +407,12 @@
         width: 280px;
         height: 200px;
         margin-top: 50px;
+    }
+
+    .logo img{
+        width: 350px;
+        height: 150px;
+    
     }
 }
 
