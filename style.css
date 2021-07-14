@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 /* first-part-style */
 .container{
@@ -10,10 +11,10 @@
     display: flex;
 }
 .title{
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 54px;
+    font-weight: 700;
     color: white;
-    padding-left: 140px;
+    padding-left: 100px;
     margin-top: 207px;
 
 }
