@@ -37,7 +37,10 @@
     border: none;
 }
 .watch-btn:hover{
-
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 3px solid #E02C6D;
+    transition-duration: 0.5s;
 }
 
 /* 2nd part style */
@@ -78,6 +81,9 @@
     line-height: 40px;
     margin-bottom:5%;
     color: #18191F;
+}
+.player-name:hover{
+    color: #E02C6D;
 }
 .player-details{
     text-align: justify
@@ -170,6 +176,15 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     
   }
+
+  .form-text{
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      color: #E02C6D;
+  }
+
+ 
   
   .btn {
     width: 50%;
@@ -197,3 +212,75 @@
   .sub-btn{
     text-align: center;
   }
+
+  .football img{
+      max-width: 100%;
+      display: block;
+      margin-left: 100px;
+      margin-top: 100px;
+  }
+
+  .football img:hover{
+    transform: scale(1.2);
+    transition: transform 2s;
+  }
+
+  .find-football{
+    color:rgb(33, 33, 85);
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .bonus-title{
+      font-size: 50px;    
+      letter-spacing: 2px;  
+}
+
+.description{
+    font-size: 20px;
+}
+
+    @media only screen and (max-width: 688px) {
+        .players{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .player img{
+            width: 85%;
+        }
+        .titles{
+            flex-direction:column ;
+        }
+        .blog{
+            flex-direction: column;
+        }
+        .match img{
+            margin-top: 30px;
+        }
+        .football img{
+            width: 70%;
+        }
+      }
+
+      @media only screen and (min-width:688px) and (max-width:992px) {
+        .players{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .player img{
+            width: 80%;
+        }
+        .titles{
+            flex-direction:column ;
+            
+        }
+        .blog{
+            flex-direction: column;
+        }
+        .match img{
+            margin-top: 40px;
+        }
+            
+
+        .football img{
+            width: 70%;
+        }
+    }
